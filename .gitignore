@@ -1,0 +1,49 @@
+# Build directories
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Package directories
+packages/
+node_modules/
+
+# Logs and database files
+logs/
+*.log
+*.ldb
+*.mdf
+*.ldf
+
+# Local app settings
+appsettings.Development.json
+appsettings.json
+appsettings.Production.json
+appsettings.Staging.json
+
+# Compiled source files
+*.dll
+*.exe
+*.so
+*.dylib
+*.pyc
+
+# Static assets
+wwwroot/dist/
+wwwroot/lib/
+wwwroot/node_modules/
+
+# Migrations (if using Entity Framework)
+Migrations/
+
+# Docker
+**/Dockerfile
+**/docker-compose*
+
+# Publish and temporary files
+.publish/
